@@ -1,0 +1,97 @@
+SCS MOD MANAGER — END USER TERMS
+SCS Mod Manager 1.0.0 — 21 October 2026
+
+Public publisher attribution: Abysimo, also known as Abysmo on gaming forums.
+Permission/support channel: https://github.com/Abysimo/SCSModManager-Releases/discussions
+Reproducible bug reports: https://github.com/Abysimo/SCSModManager-Releases/issues
+Official public release location: https://github.com/Abysimo/SCSModManager-Releases
+
+1. What these terms cover
+
+SCS Mod Manager is a free, closed-source, unofficial ETS2/ATS utility. Read the
+accompanying LICENSE.txt (licenses/SCSModManager-LICENSE.txt in the portable
+package), which defines permitted use and distribution. These
+terms must be made available appropriately; whether and how an agreement is
+formed is governed by applicable law. Nothing here treats silence as a waiver
+of rights or consent to data processing. No paid subscription is involved.
+
+2. Use, sharing and ownership
+
+You may use the original application free of charge, including for business use;
+share official release links; and distribute the complete unchanged official
+release archive by P2P without charging for the application. Reviews, screenshots,
+tutorials and videos are permitted. See LICENSE.txt for the exact scope.
+
+Without the holder's permission, you may not modify the proprietary Software,
+repackage or redistribute altered releases, upload release archives
+to third-party file hosts/mod portals/mirrors, sell or charge for the application,
+misrepresent its authorship, or redistribute proprietary source code. Mandatory
+legal exceptions and separate third-party licenses always take priority. No
+restriction is intended to prohibit lawful backup copies, necessary error
+correction, permitted observation/testing or interoperability work under its
+statutory conditions. Supported settings/data editing and generated outputs are
+ordinary permitted use.
+
+No ownership of the application is transferred. You retain your rights in your
+own data. Game/mod content remains subject to its own rights and terms; the
+application grants no authority to redistribute someone else's assets or source.
+
+3. Editing data and compatibility
+
+The application reads local game/profile/mod information and performs selected
+analyses. Explicitly confirmed tools may change selected profile/configuration
+files or create/export generated files. Keep independent backups, inspect the
+selected game/profile and proposed changes, and follow the application's safety
+instructions. Backup/recovery features are safeguards, not a guarantee against
+every failure. Steam Cloud synchronization is controlled by Steam and can affect
+profile data independently of this application. Future game/mod updates can
+change compatibility; diagnostic results are qualified evidence, not a promise
+that every combination works.
+
+4. Data, diagnostics and updates
+
+The accompanying privacy notice describes local storage, diagnostic export and
+GitHub update behavior. It is PRIVACY.md on the official project page and
+licenses/SCSModManager-PRIVACY.md in the portable package.
+
+There is no application telemetry or automatic diagnostic upload in the audited
+implementation. A suitably configured public build may make background GitHub
+release checks; installing an update requires an explicit user action. Local
+development builds have update checking/installing disabled. Updates do not give
+the publisher remote access to your game data. Do not send raw logs or backups
+without checking their contents.
+
+5. Third-party rights and unofficial status
+
+Third-party software, including incorporated code and bundled .NET/WPF components,
+retains its own licenses and notices. These terms do not restrict independently
+granted copying, modification, redistribution or source rights for those parts.
+See THIRD_PARTY_NOTICES.txt and licenses/.
+
+SCS Mod Manager is not affiliated with, endorsed or sponsored by SCS Software.
+There is no implied approval by SCS Software, Steam/Valve or a mod author.
+
+6. No extra warranty; legal liability remains
+
+The free application is supplied as available without an additional voluntary
+warranty or a promise of continuing support, availability or game/mod compatibility.
+This does not remove mandatory defect remedies, update obligations or consumer
+protections where they apply. The mandatory-liability safeguards in section 6 of
+LICENSE.txt apply in full, including intent, gross negligence, injury, fraud,
+guarantees, product liability and essential contractual duties. Applicable law
+governs remaining liability; the fact that the price is zero is not a liability cap.
+
+7. Duration and legal safeguards
+
+You may stop using and remove the application at any time. A material breach may
+justify ending permissions for the proprietary Software only as permitted by
+applicable law, including any required notice or opportunity to remedy. This
+does not terminate separate third-party licenses or statutory rights. Stopping
+use does not require destruction of your personal data or legally retained records.
+
+No exclusive court, arbitration requirement or choice of law is imposed by these
+terms. Mandatory rights remain effective wherever applicable. If a term is invalid,
+applicable law governs that issue; it is not rewritten to the broadest conceivable
+restriction. Future terms are not imposed retroactively by this document.
+
+English is the primary version, subject to mandatory language/interpretation rules.

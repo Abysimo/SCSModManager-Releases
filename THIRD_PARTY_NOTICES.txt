@@ -1,0 +1,91 @@
+SCS Mod Manager — third-party software notices
+
+Scope
+-----
+The first-party proprietary freeware terms do not replace or restrict the
+independent licenses of third-party software, including incorporated portions.
+Retain applicable copyright/permission notices, disclaimers, attribution and
+other license obligations. Third-party permissions can include modification,
+redistribution and sale of those components independently of this application.
+The texts below and in licenses/ apply to their respective material, not as a
+grant to the entire proprietary application.
+
+1. Bundled .NET / Windows Desktop runtime
+---------------------------------------
+The self-contained Windows x64 portable application includes .NET 10 and WPF.
+This distribution includes the .NET and Windows Desktop 10.0.11 runtime packs.
+Retain their complete accompanying license and notice files:
+
+  licenses/Microsoft.NETCore.App-LICENSE.TXT
+  licenses/Microsoft.NETCore.App-THIRD-PARTY-NOTICES.TXT
+  licenses/Microsoft.WindowsDesktop.App-LICENSE.TXT
+  licenses/Microsoft.WindowsDesktop.App-THIRD-PARTY-NOTICES.TXT
+  licenses/WindowsDesktop-THIRD-PARTY-NOTICES.txt
+
+The main runtime licenses are MIT. Their complete additional notices include
+other upstream licenses/attributions; do not replace them with this summary or
+assume every listed component is used on every platform. The Windows Desktop
+notice is retained from dotnet/dotnet commit
+e2f47b0110ed922f21a1522da67279133ce28f32 for version 10.0.11.
+Official projects: https://github.com/dotnet/runtime and
+https://github.com/dotnet/wpf and https://github.com/dotnet/winforms .
+
+2. GisDeflate 1.0.2
+------------------
+Managed GDeflate decompression for HashFS v2. The unmodified NuGet library's
+LICENSE.md is reproduced byte-for-byte in licenses/GisDeflate-LICENSE.md.
+It contains the skzk MIT notice and additional Microsoft, Eric Biggers and NVIDIA
+notices, including Apache-2.0 material. Keep that complete file and the full
+licenses/Apache-2.0.txt text. No separate NOTICE or source-offer file was present
+in the audited 1.0.2 NuGet package; it has no additional package dependencies.
+This does not remove obligations imposed by any component's actual license.
+
+Source: https://github.com/sk-zk/GisDeflate
+NuGet repository commit: bc0e54b64948be769c8ee8f6dbba2f46d68adeed
+
+3. scs_tools format reference and adapted CityHash64
+-------------------------------------------------
+ScsC profile format/key and AES/zlib reading were informed by MIT scs_tools.
+The HashFS CityHash64 implementation adapts its 2011-compatible variant.
+No scs_tools binary/library or game asset is
+included. The upstream scs_tools MIT notice is retained verbatim below.
+
+Source: https://github.com/Wilps93/scs_tools
+License: https://github.com/Wilps93/scs_tools/blob/main/LICENSE
+CityHash reference: https://github.com/Wilps93/scs_tools/blob/main/src/cityhash.rs
+That reference identifies the Google CityHash 2011 algorithm provenance. Its
+original Google notice is additionally preserved verbatim in
+licenses/CityHash-COPYING.txt, from https://github.com/google/cityhash/blob/master/COPYING .
+This addition does not replace the scs_tools notice.
+
+MIT License
+
+Copyright (c) 2026 scs_tools contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+4. Other content
+----------------
+The application includes GisDeflate and the self-contained .NET/WPF runtime.
+Their independently licensed components retain all applicable permissions and
+obligations. The first-party license does not restrict those rights.
+
+Games, DLC, original game archives and users' mods are not included. Their names
+and formats are references, not a grant over their intellectual property. The
+product artwork is not licensed by these third-party code notices.
