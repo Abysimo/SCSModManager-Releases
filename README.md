@@ -23,7 +23,21 @@ No approval by Valve/Steam or mod authors is implied.
 The application does not automatically determine a correct mod order or repair all
 mod conflicts. Opening Home performs discovery; content analysis starts on request.
 
-## v1.0.2 improvements
+## v1.0.3 improvements
+
+- Create and install ferry mods from explicitly selected saved directions, with
+  exact route/value review and preserved unrelated proposals.
+- Acknowledge uncertain compatibility when active map sources are unreadable;
+  supported new routes still receive structural package validation.
+- Create and install a new unused package while the game runs, leaving it inactive.
+  Use Enable mod after closing the game; activation retains exact load-order review,
+  backups and recovery. Replacing different existing package bytes requires closure.
+- Clear localized Ferry errors beside the workflow. The publisher reports the
+  manually exercised local workflow appears to work; wider compatibility is unproven.
+
+See the [v1.0.3 release notes](RELEASE_NOTES_v1.0.3.md).
+
+## Retained v1.0.2 improvements
 
 - Owner-approved Mod Manager layout: mod lists fill the available height, with a
   compact selected-mod information card and a bottom-anchored configuration/history
