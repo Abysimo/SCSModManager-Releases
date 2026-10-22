@@ -23,7 +23,19 @@ No approval by Valve/Steam or mod authors is implied.
 The application does not automatically determine a correct mod order or repair all
 mod conflicts. Opening Home performs discovery; content analysis starts on request.
 
-## v1.0.1 improvements
+## v1.0.2 improvements
+
+- Owner-approved Mod Manager layout: mod lists fill the available height, with a
+  compact selected-mod information card and a bottom-anchored configuration/history
+  panel showing about four to five rows with scrolling.
+- One background update check on every normal application startup, without the
+  previous persistent cooldown. A prominent notice appears above the workspace.
+- Validated known-update notices survive offline restarts. Update and restart,
+  Later and Release notes remain available; installation stays under your control.
+
+See the [v1.0.2 release notes](RELEASE_NOTES_v1.0.2.md).
+
+## Retained v1.0.1 improvements
 
 - Recheck Mod Manager proposals after external profile changes while keeping exact
   priorities and missing entries; clearer Apply explanations and roomier saved history.
@@ -135,8 +147,11 @@ are not assumed to contain identical data. ETS2 and ATS remain separate.
 
 Official stable builds use the pinned identity of
 [Abysimo/SCSModManager-Releases](https://github.com/Abysimo/SCSModManager-Releases).
-They can check asynchronously at startup, at most once per 24 hours automatically;
-a manual check can bypass that interval. Checks do not install updates.
+Starting with v1.0.2, each normal launch checks once in the background, without a
+persistent normal cooldown or periodic polling. Navigation does not repeat the
+check. GitHub-requested rate-limit waits are respected; manual checks remain
+available. Validated cached notices can survive temporary network failures.
+Checks do not download or install updates.
 **Update and restart** requires your action and uses verified assets, hashes,
 safe staging, backups and recovery. Pending edits can prevent restart.
 
