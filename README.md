@@ -23,6 +23,20 @@ No approval by Valve/Steam or mod authors is implied.
 The application does not automatically determine a correct mod order or repair all
 mod conflicts. Opening Home performs discovery; content analysis starts on request.
 
+## v1.0.1 improvements
+
+- Recheck Mod Manager proposals after external profile changes while keeping exact
+  priorities and missing entries; clearer Apply explanations and roomier saved history.
+- Recheck saved Ferry Editor routes without losing values, with more accurate
+  source discovery and supported HashFS handling.
+- Export a structurally valid new ferry route when some sources cannot be verified,
+  after explicitly acknowledging compatibility uncertainty. Expert output is never
+  installed or activated automatically; unsafe existing-route edits remain blocked.
+
+The publisher tested one expert-exported Bogorodskoje → Moskalvo Sak route in ETS2
+successfully. This is not a guarantee for other routes or map collections.
+See the [v1.0.1 release notes](RELEASE_NOTES_v1.0.1.md).
+
 ## Screenshots
 
 These English/Dark screenshots show **1.0.0-rc.2-local.24**, captured before the
