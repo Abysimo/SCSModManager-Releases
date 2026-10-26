@@ -18,12 +18,32 @@ No approval by Valve/Steam or mod authors is implied.
   review, patch generation, export/install and activation steps.
 - Transfer selected or complete settings between profiles of the same game; keep
   game-wide graphics configuration a separate explicit operation.
+- Browse supported game settings and create a separate settings mod from official
+  game structure, compatible observed active-mod values and your chosen overrides.
 - Use List/Tiles, mod descriptions and search, Light/Dark themes and 16 languages.
 
 The application does not automatically determine a correct mod order or repair all
 mod conflicts. Opening Home performs discovery; content analysis starts on request.
 
-## v1.0.3 improvements
+## v1.0.4 improvements
+
+- Game Settings Editor: compare vanilla, observed modded, installed and custom
+  values; edit supported economy, fines, progression and other parameters.
+- Generate/install a settings .scs mod, safely update app-owned packages and
+  optionally enable it after reviewing the exact profile changes.
+- Preserve compatible active-mod values using current official definitions as
+  the structural base. Skipped unreadable sources remain an explicit uncertainty.
+- Mod modification dates, stable manifest names, inventory sorting and exact
+  Show in Explorer selection. Active load-order priority is not sorted.
+- Clearer inputs, individual descriptions, collapsed file groups, distinct Reset
+  and Use vanilla actions, and readable live theme-aware tooltips.
+
+The stock settings catalog targets the inspected ETS2/ATS **1.61 family**.
+The publisher confirmed one tested ETS2 settings workflow; this is not exhaustive
+settings, mod collection, ATS gameplay, Cloud or rollback acceptance.
+See the [v1.0.4 release notes](RELEASE_NOTES_v1.0.4.md).
+
+## Retained v1.0.3 improvements
 
 - Create and install ferry mods from explicitly selected saved directions, with
   exact route/value review and preserved unrelated proposals.
@@ -180,6 +200,9 @@ in its update requests and contains no GitHub authentication token.
   that every mod combination works.
 - Unsupported, protected, corrupt or inaccessible sources may have incomplete or
   unavailable results. Missing mods are not downloaded automatically.
+- Settings values are best-effort when higher-priority sources cannot be read.
+  Unsafe value/structure transfers are rejected; obsolete mod-only declarations
+  are not imported. Recheck generated settings after game/source changes.
 - Cloud sync, game changes, hardware/device settings and unusual installations
   require appropriate user checks. Automated tests are not second-PC acceptance.
 - Updates require a writable, separate portable folder; mixed/reparse installations
