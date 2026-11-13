@@ -25,6 +25,16 @@ No approval by Valve/Steam or mod authors is implied.
 The application does not automatically determine a correct mod order or repair all
 mod conflicts. Opening Home performs discovery; content analysis starts on request.
 
+## v1.0.5 improvements
+
+Set **Home → Game Data Folder** to the ETS2 or ATS directory that contains
+your relocated profiles, mods, saves and settings. Keep **Game installation**
+pointing to the installed game. With `-homedir`, select the game-specific
+subfolder inside the configured parent. Each game remembers its own choice.
+Separate local mod folder overrides still take precedence.
+
+See the [v1.0.5 release notes](RELEASE_NOTES_v1.0.5.md).
+
 ## v1.0.4 improvements
 
 - Game Settings Editor: compare vanilla, observed modded, installed and custom
